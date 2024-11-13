@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/sakuhin.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Dongle:wght@300;400;700&family=Galada&family=Montserrat+Alternates:wght@100;200;300;400&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <img src="img/hidari.png" alt="" class="hidari">
+    </header>
+    <div class="wrapper">
+        <div class="top">
+            <h1><span id="title"></span>（ <span id="type"></span> ）</h1>
+            <p><span id="koukaibi"></span><span id="length"></span><span id="country"></span><span id="genre"></span></p>
+        </div>
+        <div class="middle">
+            <img src="img/bookimg.jpg" alt="" id="poster">
+            <div class="middle-text">
+                <h5>監督／著者</h5>
+                <p id="kantoku">〇〇 〇〇</p>
+                <h5>脚本</h5>
+                <p id="kyakuhon">〇〇 〇〇</p>
+                <h5>キャスト</h5>
+                <p id="cast">〇〇 〇〇、〇〇 〇〇、〇〇 〇〇</p>
+                <button id="listAdd-btn">気になるリストに追加</button>
+            </div>
+        </div>
+        <div class="bottom">
+            <h5>あらすじ</h5>
+            <p id="story"></p>
+            <h5>この作品がMyBestなユーザー</h5>
+            <div id="user-icons"></div>
+        </div>
+    </div>
+        
+    <footer></footer>
+
+    <script type="module" src="sakuhin.js"></script>
+  </body>
+</html>
