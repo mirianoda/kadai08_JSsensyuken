@@ -5,7 +5,7 @@ MyFavotire
 - 人生で一番好きな作品をシェアし、いろいろな人のMy Favoriteに出会うことができるサービスです。
 
 ## ③アプリのデプロイURL
-デプロイしている場合はURLを記入（任意）
+https://yellowseal83.sakura.ne.jp/js_MyFavorite_nokey/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - ID: 〇〇〇〇〇〇〇〇
